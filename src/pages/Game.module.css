@@ -1,0 +1,41 @@
+.container {
+  height: 100vh;
+}
+
+.svg {
+  padding: 65px;
+}
+
+.main circle {
+  cursor: pointer;
+}
+
+.main circle:hover {
+  opacity: 0.8;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headerContent {
+  display: flex;
+  padding: 65px 35px 0 35px;
+}
+
+.headerContent h3 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.headerContent > h3:not(:last-child) {
+  margin-right: 65px;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,50 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  margin-bottom: 80px;
+}
+
+.header h1 {
+  text-align: center;
+  color: red;
+  font-weight: 400;
+  font-size: 82px;
+}
+
+.details {
+  margin-bottom: 66px;
+}
+
+.details h2 {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 85px;
+  text-align: center;
+}
+
+.details > h2:not(:last-child) {
+  margin-bottom: 47px;
+}
+
+.footer {
+  cursor: pointer;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer:hover {
+  opacity: 0.8;
+}
